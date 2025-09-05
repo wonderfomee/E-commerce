@@ -1,0 +1,9 @@
+package StrategyPattern;
+import DataModels.*;
+
+/*
+ * Interface สำหรับกลยุทธิ์ส่วนลด
+ */
+public interface DiscountStrategy {
+    double applyDiscount(Order order);
+}
