@@ -59,5 +59,8 @@ public class ManualTestRunner {
         double finalPrice = priceAfterFixed;// สมมติว่าใช้ส่วนลด 10%
         double tatalCost = finalPrice + fullyLoaded.getCost();
         System.out.println("Final price after discount: " + finalPrice);
+
+        //--- 5. Testing Observer Patten (Processing Order) ---
+        orderProcessor.processOrder(myOrder);
     }
 }
